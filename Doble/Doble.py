@@ -52,8 +52,7 @@ def print_dobble_deck(deck):
 
 # Paraméter beolvasása
 if len(sys.argv) != 2:
-    print("Használat: python doble.py <n>")
-    print("Ahol <n> a Dobble pakli mérete.")
+    print("Használat: python Doble.py <pakli mérete>")
     sys.exit(1)
 
 n = int(sys.argv[1])
